@@ -4,8 +4,14 @@ namespace StatisticsHelper {
 	 public void CalculateMax(int[] values){
 	 
 	 }
-	 public void CalculateMin(int[] values){
-		
+	 public int CalculateMin(int[] values){
+		int result = values[0];
+		for(int i=0;i<values.size;i++){
+			if(result>values[i]){
+				result = values[i];
+			}
+		}
+		return result;
 	 }
 	}
 }
