@@ -4,7 +4,7 @@ namespace StatisticsHelper {
 	 public void CalculateMax(int[] values){
 	 //main changes
 	 }
-	 //random comment
+	 //random comment THIS IS MAIN COMMENT CHANGE YAEAHJ
 	 public int CalculateMin(int[] values){
 		int result = values[0];
 		for(int i=0;i<values.size;i++){
